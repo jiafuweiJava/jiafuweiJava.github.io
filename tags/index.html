@@ -18,11 +18,11 @@
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
     <title>
         
-        jiafuwei&#39;s blog
+        tags｜jiafuwei&#39;s blog
         
     </title>
 
-    <link rel="canonical" href="http://jiafuwei.win/archives/2017/02/">
+    <link rel="canonical" href="http://jiafuwei.win/tags/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -123,191 +123,101 @@
 </script>
 
 <!-- Main Content -->
-
+<style>
+    .intro-header .site-heading {
+        margin: 50px;
+    }
+</style>
 
 <!-- Page Header -->
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 visible-xs-block visible-sm-block">
-    <div class="row">
-        <header class="intro-header">
-            <div class="container">
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading text-center">
-                    <div class="about-me">
-                        <!--移动端头部显示-->
-                        <img src="http://olrn1lmgh.bkt.clouddn.com/1.jpg"/>
-                        <h5><a href="/about/">贾馥玮</a></h5>
-                        <p>既来之，则安之</p>
-                    </div>
+                    <h1>tags</h1>
+                    <span class="subheading">学习博客</span>
                 </div>
             </div>
-        </header>
+        </div>
     </div>
-</div>
+</header>
+
 <!-- Main Content -->
-<div class="container custom-haojen-container">
-    <!-- Post Container -->
+<div class="container">
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container">
-            <!-- Main Content -->
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 标签云 -->
+            <div id='tag_cloud' class="tags">
+                
+                <a href="#博客，文章" title="博客，文章" rel="1">博客，文章</a>
+                
+                <a href="#Spring" title="Spring" rel="1">Spring</a>
+                
+                <a href="#Redis" title="Redis" rel="1">Redis</a>
+                
+            </div>
 
-
-
-<div class="post-preview "
-     style="background-image: url('http://olrn1lmgh.bkt.clouddn.com/2.jpg')">
-    <a href="/2017/02/22/new-post-spring-session/">
-        <h2 class="post-title">
-            Spring Session + Redis实现分布式Session共享
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2017-02-22
-        </p>
-        
-        <h3 class="post-subtitle">
-            Spring Session整合
-        </h3>
-        
-        <div class="post-content-preview">
-            <p>
-                通常情况下，Tomcat、Jetty等Servlet容器，会默认将Session保存在内存中。如果是单个服务器实例的应用，将Session保存在服务器内存中是一个非常好的方案。但是这种方案有一个缺点，就是不利于扩展。
-目前越来越多的应用采用分布式部署，用于实现高可用性和负载均衡等。那么问题来了，..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('http://olrn1lmgh.bkt.clouddn.com/timg.jpg')">
-    <a href="/2017/02/22/my-new-post/">
-        <h2 class="post-title">
-            2017年2月22日下雪了
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2017-02-22
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                今天，天津下雪了！窗外是白茫茫的一片！这是我的博客地址。
-
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-<div class="post-preview "
-     style="background-image: url('http://olrn1lmgh.bkt.clouddn.com/timg.jpg')">
-    <a href="/2017/02/22/hello-world/">
-        <h2 class="post-title">
-            Hello World
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2017-02-22
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer i..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-
-<!-- 翻页 pager -->
-
-<ul class="pager">
-    
-    
-</ul>
-
-
-        </div>
-        <!-- Sidebar Container -->
-        <div class="
-                col-lg-3 col-lg-offset-0
-                col-md-3 col-md-offset-0
-                col-sm-12
-                col-xs-12
-                sidebar-container
-            ">
-
-            <!-- About Me -->
-            <section class="visible-md visible-lg" style="padding: 0 18px">
-                <div class="short-about">
-                    <!--侧边栏头像-->
-                    
-                    <img src="http://olrn1lmgh.bkt.clouddn.com/1.jpg"/>
-                    
-                    <h5><a href="/about/">贾馥玮</a></h5>
-                    
-                    <p>既来之，则安之</p>
-                    
-                    <hr>
-                    <!-- SNS Link 社交 -->
-                    <ul class="list-inline">
+            <!-- 标签列表 -->
+            
+            <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="博客，文章">
+                    <span class="tag-text">博客，文章</span>
+                </span>
+                
+                <div class="post-preview">
+                    <a href="/2017/02/22/my-new-post/">
+                        <h2 class="post-title">
+                            2017年2月22日下雪了
+                        </h2>
                         
-                        
-                        
-
-                        
-
-                        
-
-                        
-                        <li>
-                            <a target="_blank" href="https://github.com/jiafuweiJava">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-
-                        
-                    </ul>
+                    </a>
                 </div>
-            </section>
-
-            <!-- Featured Tags  标签 -->
+                <hr>
+                
+            </div>
             
-            <section>
-                <div class="tags">
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+            <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="Spring">
+                    <span class="tag-text">Spring</span>
+                </span>
+                
+                <div class="post-preview">
+                    <a href="/2017/02/22/new-post-spring-session/">
+                        <h2 class="post-title">
+                            Spring Session + Redis实现分布式Session共享
+                        </h2>
+                        
+                        <h3 class="post-subtitle">
+                            Spring Session整合
+                        </h3>
+                        
+                    </a>
                 </div>
-            </section>
+                <hr>
+                
+            </div>
             
-
-            
-            <hr>
-            <h5 style="text-align: center;">Friends</h5>
-            <ul class="list-inline" style="text-align: center;">
+            <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="Redis">
+                    <span class="tag-text">Redis</span>
+                </span>
                 
-                <li><a href="http://www.cnblogs.com/jiafuwei" target="_blank">我的博客园</a></li>
+                <div class="post-preview">
+                    <a href="/2017/02/22/new-post-spring-session/">
+                        <h2 class="post-title">
+                            Spring Session + Redis实现分布式Session共享
+                        </h2>
+                        
+                        <h3 class="post-subtitle">
+                            Spring Session整合
+                        </h3>
+                        
+                    </a>
+                </div>
+                <hr>
                 
-                <li><a href="https://www.google.com.hk/" target="_blank">Google</a></li>
-                
-            </ul>
+            </div>
             
 
         </div>
